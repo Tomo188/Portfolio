@@ -25,7 +25,7 @@ function About() {
          <img className="rounded-2xl" src={aboutImg} alt="About" />
     </div>
     </motion.div>
-    <motion.div variants={animate(100)} whileInView="initial" animate="visible" className="w-full lg:w-1/2">
+    <motion.div variants={animate(100)} initial="initial" whileInView="visible" className="w-full lg:w-1/2">
         <div className="flex justify-center lg:justify-start">
             <p className="my-2 maxw-xl py-6">{ABOUT_TEXT}</p>
         </div>
